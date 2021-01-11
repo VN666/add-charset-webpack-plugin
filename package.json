@@ -1,0 +1,33 @@
+{
+  "name": "add-charset-webpack-plugin",
+  "version": "1.0.0",
+  "description": "a webpack plugin which add charset to css file",
+  "main": "index.js",
+  "peerDependencies": {
+    "webpack": "^4.0.0 || ^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VN666/add-charset-webpack-plugin.git"
+  },
+  "author": {
+    "name": "VN666",
+    "email": "ez18639882012.163.com",
+    "url": "https://github.com/VN666"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "charset",
+    "css",
+    "add-charset-webpack-plugin"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VN666/add-charset-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/VN666/add-charset-webpack-plugin#readme"
+}
