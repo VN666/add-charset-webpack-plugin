@@ -16,11 +16,11 @@ This is a [webpack](http://webpack.js.org/) that add charset to final css files;
 const AddCharsetWebpackPlugin = require("add-charset-webpack-plugin");
 
 module.exports = {
-  	plugins: [
-    	new AddCharsetWebpackPlugin({
-    		charset: "utf-8"
-    	})
-  	]
+	plugins: [
+		new AddCharsetWebpackPlugin({
+			charset: "utf-8"
+		})
+	]
 }
 ```
 
@@ -35,9 +35,9 @@ html {
 }
 
 body {
-    min-width: 960px;
-    background: #FFFFFF;
-    font-size: 14px;
+	min-width: 960px;
+	background: #FFFFFF;
+	font-size: 14px;
 }
 ...
 ```
