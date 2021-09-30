@@ -13,7 +13,7 @@ class addCharsetWebpackPlugin {
           source = source.includes("@charset") ? source : `@charset "${this.charset}";${source}`;
           compilation.assets[fileName] = {
             source: () => source,
-            size: () => this.source().length
+            size: () => compilation.assets[fileName].source().length
           }
         }
         callback();
